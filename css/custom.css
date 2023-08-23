@@ -1,0 +1,232 @@
+body, html {
+    height: 100%;
+}
+
+#header .header-container {
+    background: #fff;
+    top: 50px;
+}
+#header .header-container .logo{
+    background: #6f42c1;
+    padding: 5px;
+}
+
+#header .header-container .logo h1,#header .header-container .logo h1 .a{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 2;
+}
+
+#navbarNavDropdown ul li{
+    padding-right: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#navbarNavDropdown ul li .active{
+    color: #6f42c1;
+    background-color: transparent;
+}
+
+#navbarNavDropdown ul li a:hover{
+    color: #6f42c1;
+}
+
+.top-nav-collapse{
+    background: #fff;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+#slide{
+    background: url(../img/hero-bg.jpg) center center;
+    background-size: cover;
+    min-height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+#slide::before{
+    content: "";
+    background: #00000094;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+#head-text{
+    position: relative;
+    margin-top: 50px;
+}
+
+#head-text h1, #head-text h2{
+    font-weight: 600;
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+}
+
+#head-text .btn{
+    background: transparent;
+    border: 2px rgb(255, 255, 255) solid;
+    width: 20%;
+    height: 50%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#head-text .btn:hover{
+    background: #6f42c1 !important;
+    border: 2px #6f42c1 solid;
+}
+
+.body-qoure{
+    margin: 40px 40px;
+    padding: 20px;
+    border: 2px #0074d9 solid !important;
+}
+
+.text-qoure{
+    color: #6f42c1;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#feature, #contact{
+    background: #f8f8f8;
+    padding: 60px 0px;
+}
+
+.txt-para{
+	color: #888;
+    text-align: justify;
+}
+.icon {
+    position: relative;
+    height: 48px;
+    width: 48px;
+    float: left;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.icon svg{
+	font-size: 35px;
+}
+.icon-text {
+    margin-left: 73px;
+    padding:0px 25px 25px 0px;
+}
+
+#parallax {
+    position: relative;
+    padding: 88px 0 67px 0;
+    display: block;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-position: center center;
+    background: url(../img/cta-banner.jpg) no-repeat center fixed;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+/* @media only screen and (max-device-width: 1366px) {
+    #parallax {
+      background-attachment: scroll;
+    }
+  } */
+
+.cta-txt h3{
+    
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: #fff;
+}
+.cta-txt p{
+	color: #fff;
+}
+
+.create-button a{
+    background: #0074d9;
+    color: #000;
+}
+.create-button a:hover{
+    background: #6f42c1;
+    color: #fff;
+}
+
+#portfolio{
+    background: #fff;
+    padding: 60px 0px;
+}
+
+.portfolio-box{
+	margin-bottom: 15px;
+}
+
+.portfolio-box img{
+    height: 180px;
+    width: 100%;
+}
+
+.padding-right-zero{
+	padding-right: 0px;
+}
+
+.location{
+    padding: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    margin: 5px 0px;
+    background: white;
+}
+
+.icon-location{
+    background: #6f42c1;
+    font-size: 20px;
+    color: white;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    margin: 5px 10px 0px 0px;
+}
+
+.location h4, .location p{
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+}
+
+#footer{
+	background-color: #191919;
+	padding: 20px 0px;
+}
+
+.footer-copyright {
+    color: #fff;
+    line-height: 32px;
+    text-align: left;
+}
+
+.footer-social{
+	float: right;
+}
+
+.footer-social a {
+    font-size: 18px;
+    color: #666;
+}
