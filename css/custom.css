@@ -173,12 +173,55 @@ body, html {
 
 .portfolio-box{
 	margin-bottom: 15px;
+    position: relative;
+    transition: transform .2s;
 }
+
+.portfolio-box:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    z-index: 1; 
+}
+
+.divModal-detail{
+    width: 180px;
+    text-align: center;
+}
+
+.modal-detail{
+    position: absolute;
+    text-align: center;
+    opacity: 0;
+    margin: auto;
+    top: 40%;
+}
+
+.hoverImage:hover .modal-detail{
+    opacity: 1;
+    
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.5s ease;
+  }
+  
+  .hoverImage:hover .overlay {
+    display: block;
+    background: rgba(0, 0, 0, .3);
+  }
 
 .portfolio-box img{
     height: 180px;
     width: 100%;
 }
+
 
 .padding-right-zero{
 	padding-right: 0px;

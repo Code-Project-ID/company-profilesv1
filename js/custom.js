@@ -13,3 +13,11 @@
         }
         
     });
+
+    // Navigation scrolls
+    $('.navbar-nav li a').bind('click', function(event) {
+        $('.navbar-nav li a').removeClass('active');
+        $(this).closest('li a').addClass('active');
+        var $anchor = $(this);
+        var nav = $($anchor.attr('href'));
+    });
